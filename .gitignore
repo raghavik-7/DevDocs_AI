@@ -1,0 +1,6 @@
+echo "dev-docs-chatbot/Lib/" >> .gitignore
+echo "model_cache/" >> .gitignore
+echo "*.pyd" >> .gitignore
+echo "*.dll" >> .gitignore
+echo "*.lib" >> .gitignore
+echo "*.safetensors" >> .gitignore
