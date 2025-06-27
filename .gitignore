@@ -1,6 +1,28 @@
-echo "dev-docs-chatbot/Lib/" >> .gitignore
-echo "model_cache/" >> .gitignore
-echo "*.pyd" >> .gitignore
-echo "*.dll" >> .gitignore
-echo "*.lib" >> .gitignore
-echo "*.safetensors" >> .gitignore
+cat > .gitignore << 'EOF'
+# Virtual environments
+dev-docs-chatbot/
+venv/
+env/
+__pycache__/
+
+# Model cache and large files
+model_cache/
+*.safetensors
+*.pyd
+*.dll
+*.lib
+*.so
+
+# Python
+*.pyc
+*.pyo
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
