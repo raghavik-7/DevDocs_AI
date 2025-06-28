@@ -111,9 +111,6 @@ curl "http://localhost:8000/query/?question=What%20is%20this%20documentation%20a
 3. Make your changes and add tests if applicable.
 4. Submit a pull request with a clear description of your changes.
 
-## 📄 License
-Specify your license here (e.g., MIT, Apache 2.0, etc.).
-
 ---
 
 **Contact:** For questions or support, open an issue or contact the maintainer. 
